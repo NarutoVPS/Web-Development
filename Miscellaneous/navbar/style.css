@@ -6,14 +6,14 @@
 }
 
 nav {
-    background-color: pink;
+    background-color: #9d6a89;
     display: flex;
     align-items: center;
     height: 10vh;
 }
 
 .container {
-    background-color: pink;
+    background-color: #9d6a89;
     width: 80%;
     margin: auto;
 }
@@ -27,10 +27,14 @@ nav {
     font-size: 1.5em;
 }
 
+a {
+    color: #efbc9b;
+}
+
 .burger div {
     height: 3px;
     width: 30px;
-    background-color: blue;
+    background-color: #efbc9b;
     margin: 5px 0;
 }
 
