@@ -70,7 +70,7 @@ ul li a button {
     font-size: 1.4rem;
 }
 
-ul li a button:focus {
+button:focus {
     outline: none;
 }
 
@@ -143,6 +143,7 @@ div.section1 div.wrapper{
 h2, p{
     padding: 4%;
 }
+
 /* Buttons inside Post */
 
 [class*="post"] a {
@@ -160,6 +161,8 @@ h2, p{
     padding: 10px 30px;
 }
 
+/* Media query for big screens */
+
 @media only screen and (min-width: 750px){
     .post {
         background-color: #f2f2f2;
@@ -174,6 +177,8 @@ h2, p{
         flex: 0 0 48% !important;
     }
 }
+
+/* Media query for mobile devices */
 
 @media only screen and (max-width: 480px){
     [class*="post"] {
