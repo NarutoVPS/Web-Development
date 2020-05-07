@@ -174,3 +174,10 @@ h2, p{
         flex: 0 0 48% !important;
     }
 }
+
+@media only screen and (max-width: 480px){
+    .post {
+        background-color: #f2f2f2;
+        flex: 0 0 98%
+    }
+}
