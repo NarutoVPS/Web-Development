@@ -33,9 +33,24 @@ html {
     list-style: none;
 }
 
-/* .navBtn {
-    flex: 0 0 10%;
-} */
+/* Navbar Buttons */
+
+.navBtn {
+    margin-right: 15px;
+}
+
+ul li a button {
+    border: 1px solid gray;
+    padding: 15px 15px;
+    height: 90%;
+    color: white;
+    font-weight: bold;
+    font-size: 1.4rem;
+}
+
+ul li a button:focus {
+    outline: none;
+}
 
 
 [type=button] {
