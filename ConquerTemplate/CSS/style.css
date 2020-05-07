@@ -5,7 +5,9 @@ html {
 * {
     margin: 0;
     padding: 0;
+    font-family: 'Roboto', sans-serif;
     font-family: 'Open Sans Condensed', sans-serif;
+    font-family: 'Oxygen', sans-serif;
 }
 
 *,
@@ -39,14 +41,14 @@ html {
 
 .navBtn {
     margin: 25px 0;
-    margin-right: 15px;
+    margin-right: 20px;
 }
 
 ul li a button {
     border: 1px solid gray;
-    padding: 13px 25px;
+    padding: 10px 25px;
     color: white;
-    font-weight: bold;
+    font-weight: 500;
     font-size: 1.4rem;
 }
 
@@ -55,7 +57,8 @@ ul li a button:focus {
 }
 
 ul li a button:hover {
-    transition: all 1s ease;
+    cursor: pointer;
+    transition: all 0.7s ease;
     background-color: #49505f;
 }
 
@@ -79,17 +82,16 @@ ul li a button:hover {
 
 /* Section 1  */
 
+.postText p {
+    font-weight: lighter;
+}
+
 div.section1 div.wrapper{
     align-items: flex-start;
     justify-content: space-evenly;
-    /* border: 1px solid black; */
     margin: 8vh 0;
     width: 100%;
     flex-wrap: wrap;
-}
-
-img {
-    background-size: cover;
 }
 
 .postImage1-1 {
