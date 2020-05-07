@@ -49,11 +49,11 @@ html {
 /* Cover Image */
 .cover {
     /* background: ; */
-    border: 3px solid blue;
     width: 100vw;
     height: 60vh;
     background-image: url("../img/bg-1.jpg");
     background-size: cover;
+    background-position: center center;
 }
 .cover img{
     max-width: 100vw;
