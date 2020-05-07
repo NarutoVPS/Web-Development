@@ -38,16 +38,12 @@ html {
 }
 
 .navBtn {
-    /* margin: 1% 0;
-    margin-right: 2%;
-    padding: 10px; */
     flex: 0 0 10%;
 }
 
 
 [type=button] {
     background-color: #383e4c;
-    /* margin-right: 3%; */
 }
 
 /* Cover Image */
@@ -58,7 +54,6 @@ html {
     height: 60vh;
     background-image: url("../img/bg-1.jpg");
     background-size: cover;
-    /* width: 1em; */
 }
 .cover img{
     max-width: 100vw;
@@ -66,17 +61,7 @@ html {
 }
 
 /* Cover Text */
-/* .front {
-    position: relative;
-    text-align: center;
-}
 
-.coverText {
-    position: absolute;
-    top: 50%;
-    bottom: 50%;
-    transform: translate(400%, 0%);
-} */
 
 /* Section 1  */
 
