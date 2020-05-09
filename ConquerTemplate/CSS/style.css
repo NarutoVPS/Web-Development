@@ -30,7 +30,7 @@ p {
 }
 
 p, h2 {
-    padding: 3%;
+    padding: 10px 20px;
 }
 
 
@@ -273,14 +273,15 @@ div.section3.wrapper {
     background-size: cover ;
     background-repeat: no-repeat;
     object-fit: contain;
+    margin-bottom: 3%;
 }
 
 .sec3Image2-1 {
-    height: 500px;
+    height: 400px;
 }
 
 .sec3Post {
-    height: 500px;
+    height: 520px;
 }
 
 /* Media query for big screens */
@@ -310,7 +311,7 @@ div.section3.wrapper {
         background-color: #f2f2f2;
         margin-right: 2%;
         margin-bottom: 5%;
-        flex: 0 0 95% !important;   
+        flex: 0 0 98% !important;   
     }
 }
 
@@ -320,6 +321,6 @@ div.section3.wrapper {
     [class*="post"] {
         background-color: #f2f2f2;
         margin-bottom: 10%;
-        flex: 0 0 100%
+        flex: 0 0 90%
     }
 }
