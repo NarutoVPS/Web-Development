@@ -187,6 +187,10 @@ h2, p{
 
 /* Section 3 */
 
+div.section3.wrapper {
+    flex-wrap: wrap;
+}
+
 .sec3Image1-1 {
     background: url("../img/4-1.jpg");
 }
@@ -214,6 +218,20 @@ h2, p{
         margin-right: 2%;
         margin-bottom: 5%;
         flex: 0 0 48% !important;
+    }
+
+    .sec3Post {
+        background-color: #f2f2f2;
+        margin-right: 2%;
+        margin-bottom: 5%;
+        flex: 0 0 23% !important;
+    }
+
+    .sec3PostBig {
+        background-color: #f2f2f2;
+        margin-right: 2%;
+        margin-bottom: 5%;
+        flex: 0 0 95% !important;   
     }
 }
 
