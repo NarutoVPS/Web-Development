@@ -85,6 +85,10 @@ button {
     padding: 10px 30px;
 }
 
+button:hover {
+    cursor: pointer;
+}
+
 /* Button Light */
 .btn-light {
     background-color: white;
@@ -284,33 +288,29 @@ div.section3.wrapper {
     height: 520px;
 }
 
+/* For all posts */
+
+.post, .post2, .sec3Post, .sec3PostBig {
+    background-color: #f2f2f2;
+    margin-right: 2%;
+    margin-bottom: 5%;
+}
+
 /* Media query for big screens */
 
 @media only screen and (min-width: 750px){
     .post {
-        background-color: #f2f2f2;
-        margin-right: 2%;
-        margin-bottom: 5%;
         flex: 0 0 31.33% !important;
     }
     .post2 {
-        background-color: #f2f2f2;
-        margin-right: 2%;
-        margin-bottom: 5%;
         flex: 0 0 48% !important;
     }
 
     .sec3Post {
-        background-color: #f2f2f2;
-        margin-right: 2%;
-        margin-bottom: 5%;
         flex: 0 0 23% !important;
     }
 
     .sec3PostBig {
-        background-color: #f2f2f2;
-        margin-right: 2%;
-        margin-bottom: 5%;
         flex: 0 0 98% !important;   
     }
 }
@@ -319,7 +319,6 @@ div.section3.wrapper {
 
 @media only screen and (max-width: 480px){
     [class*="post"] {
-        background-color: #f2f2f2;
         margin-bottom: 10%;
         flex: 0 0 90%
     }
