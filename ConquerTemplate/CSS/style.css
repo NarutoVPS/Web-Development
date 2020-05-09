@@ -56,6 +56,14 @@ html {
     background-size: cover;
 }
 
+/* Button Light */
+.btn-light {
+    background-color: white !important;
+    color: #666666 !important;
+    border: 1px solid #ccc !important;
+    border-radius: 10px !important;
+}
+
 /* Navbar */
 .navbar {
     background-color: #383e4c;
@@ -224,6 +232,9 @@ div.section3.wrapper {
     height: 500px;
 }
 
+.sec3Post {
+    height: 500px;
+}
 
 /* Media query for big screens */
 
