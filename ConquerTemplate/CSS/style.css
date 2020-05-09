@@ -189,18 +189,39 @@ h2, p{
 
 div.section3.wrapper {
     flex-wrap: wrap;
+    margin-top: 8vh;
 }
 
 .sec3Image1-1 {
     background: url("../img/4-1.jpg");
 }
 
+.sec3Image1-2 {
+    background: url("../img/4-2.jpg");
+}
+
+.sec3Image1-3 {
+    background: url("../img/4-3.jpg");
+}
+
+.sec3Image1-4 {
+    background: url("../img/4-4.jpg");
+}
+
+.sec3Image2-1 {
+    background: url("../img/4-5.jpg");
+}
+
 [class*="sec3Image"] {
     width: 100%;
-    height: 400px;
+    height: 250px;
     background-size: cover ;
     background-repeat: no-repeat;
     object-fit: contain;
+}
+
+.sec3Image2-1 {
+    height: 500px;
 }
 
 
