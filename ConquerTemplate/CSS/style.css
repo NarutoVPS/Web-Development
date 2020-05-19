@@ -10,12 +10,6 @@ html {
     font-family: 'Oxygen', sans-serif;
 }
 
-*,
-*:before,
-*:after {
-	box-sizing: inherit;
-}
-
 /* Fonts */
 h2 {
     color: #666666;
@@ -169,7 +163,7 @@ ul li a button:hover {
 /* Cover Image */
 .cover {
     /* background: ; */
-    width: 100vw;
+    width: 99vw;
     height: 60vh;
     background-image: url("../img/bg-1.jpg");
     background-size: cover;
