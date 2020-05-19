@@ -47,7 +47,7 @@ p, h2 {
   }
   @media (min-width: 1200px) {
     .container {
-      width: 1170px;
+      width: 60%;
     }
   }
 
@@ -77,6 +77,7 @@ button {
     margin-top: 15px;
     margin-bottom: 30px;
     padding: 10px 30px;
+    transition: all 0.4s ease;
 }
 
 button:hover {
@@ -89,6 +90,10 @@ button:hover {
     color: #666666;
     border: 1px solid #ccc;
     border-radius: 10px;
+}
+
+.btn-light:hover{
+    background-color: #E6E6E6;
 }
 
 /* Dark Button */
@@ -111,6 +116,10 @@ button:hover {
     border-radius: 5px;
 }
 
+.btn-green:hover {
+    background-color: #449D44;
+}
+
 /* Blue Button */
 .btn-blue {
     background-color: #1686C1;
@@ -119,12 +128,20 @@ button:hover {
     border-radius: 5px;
 }
 
+.btn-blue:hover{
+    background-color: #31B0D5;
+}
+
 /* Red Button */
 .btn-red {
     background-color: #852406;
     color: white;
     font-size: 1.1rem;
     border-radius: 5px;
+}
+
+.btn-red:hover{
+    background-color: #C9302C;
 }
 
 /* Navbar */
