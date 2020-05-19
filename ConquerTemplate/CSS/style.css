@@ -163,7 +163,7 @@ ul li a button:hover {
 /* Cover Image */
 .cover {
     /* background: ; */
-    width: 99vw;
+    width: 100vw;
     height: 60vh;
     background-image: url("../img/bg-1.jpg");
     background-size: cover;
@@ -311,6 +311,7 @@ div.section3.wrapper {
 
 .smallScreen{
     text-align: center;
+    display: none;
 }
 
 /* Media query for mobile devices */
@@ -360,6 +361,10 @@ div.section3.wrapper {
 @media only screen and (max-width: 1000px){
     .failsafe {
         display: none;
+    }
+
+    .smallScreen{
+        display: block;
     }
 
 }
