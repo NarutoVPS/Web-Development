@@ -174,10 +174,21 @@ ul li a button:hover {
     background-image: url("../img/bg-1.jpg");
     background-size: cover;
     background-position: center center;
+    position: relative;
 }
 
 /* Cover Text */
+.coverText {
+    color: white;
+    font-size: 2.3em;
+    text-shadow: 2px 2px #000;
+}
 
+.cover p {
+    text-align: center;
+    text-shadow: 1px 1px #000;
+    font-size: 25px;
+}
 
 /* Section 1  */
 
@@ -242,7 +253,7 @@ div.section1 div.wrapper{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
-  }
+}
 
 /* Section 3 */
 
