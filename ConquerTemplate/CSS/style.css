@@ -147,6 +147,8 @@ button:hover {
 /* Navbar */
 .navbar {
     background-color: #383e4c;
+    width: 100vw;
+    position: fixed;
     height: 8vh;
 }
 
