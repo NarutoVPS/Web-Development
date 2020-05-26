@@ -326,7 +326,36 @@ div.section3.wrapper {
     line-height: 1px;
 }
 
-/* SmallScreen Erroe */
+/* Contact Form */
+
+.contactForm {
+    height: 500px;
+    background: url("../img/bg-3.jpg");
+    background-size: cover;
+    background-position: center;
+}
+
+.form {
+    width: 50%;
+}
+
+.form input {
+    background: rgba(242, 242, 242, 0.4);
+    border: none;
+}
+
+.form input:focus {
+    outline: none;
+}
+
+.form p {
+    background: rgba(242, 242, 242, 0.4);
+}
+
+
+
+
+/* SmallScreen Error */
 
 .smallScreen{
     text-align: center;
