@@ -184,7 +184,7 @@ ul li a button:hover {
     /* background: ; */
     width: 100vw;
     height: 60vh;
-    background-image: url("../img/bg-1.jpg");
+    background-image: url("../img/bg-1-min.jpg");
     background-size: cover;
     background-position: center center;
     position: relative;
@@ -255,7 +255,7 @@ div.section1 div.wrapper{
 /* Section 2 */
 .section2 {
     height: 300px;
-    background-image: url("../img/bg-2.jpg");
+    background-image: url("../img/bg-2-min.jpg");
     color: white;
     position: relative;
     text-align: center;
@@ -292,7 +292,7 @@ div.section3.wrapper {
 }
 
 .sec3Image2-1 {
-    background: url("../img/4-5.jpg");
+    background: url("../img/4-5-min.jpg");
 }
 
 [class*="sec3Image"] {
@@ -322,6 +322,7 @@ div.section3.wrapper {
 
 /* Disclaimer */
 .disclaimer {
+    margin: 30px 0;
     text-align: center;
     line-height: 1px;
 }
@@ -331,7 +332,7 @@ div.section3.wrapper {
 
 .contactForm {
     height: 500px;
-    background: url("../img/bg-3.jpg");
+    background: url("../img/bg-3-min.jpg");
     background-size: cover;
     background-position: center center;
     position: relative;
