@@ -455,6 +455,16 @@ form {
     .form .wrapper {
         flex-direction: column;
     }
+
+    .contactForm {
+        height: 700px;
+    }
+
+    .form textarea {
+        margin-top: 15px;
+        width: 311px;
+        /* height: 200px !important; */
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 999px) {
