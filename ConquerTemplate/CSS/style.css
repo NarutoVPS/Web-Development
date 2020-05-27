@@ -212,7 +212,6 @@ div.section1 div.wrapper{
     align-items: flex-start;
     justify-content: space-evenly;
     margin: 8vh 0;
-    /* width: 100%; */
     flex-wrap: wrap;
 }
 
@@ -243,10 +242,6 @@ div.section1 div.wrapper{
     background-repeat: no-repeat;
     object-fit: contain;
 }
-
-/* h2, p{
-    padding: 3%;
-} */
 
 /* Buttons inside Post */
 
@@ -325,8 +320,19 @@ div.section3.wrapper {
 .post, .post2, .sec3Post, .sec3PostBig {
     background-color: #f2f2f2;
     margin-right: 2%;
-    margin-bottom: 3%;
 }
+
+/* For individual posts */
+
+.post {
+    margin-bottom: 60px;
+}
+
+.sec3PostBig {
+    margin-top: 30px;
+    margin-bottom: 8vh;
+}
+
 
 /* Disclaimer */
 .disclaimer {
@@ -496,6 +502,10 @@ form {
     .sec3Post {
         flex: 0 0 48%;
         max-width: 260px;
+    }
+
+    nav {
+        display: none;
     }
 }
 
