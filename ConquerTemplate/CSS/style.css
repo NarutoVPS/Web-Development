@@ -425,23 +425,15 @@ form {
 
 /* Media query for tablets */
 
-@media only screen and (min-width: 581px) and (max-width: 1199px){
-    .post {
-        flex: 0 0 50% !important;
-    }
-
-    .post2 {
-        flex: 0 0 80%;
-    }
-
-    .sec3Post {
-        flex: 0 0 40%;
+@media only screen and (min-width: 999px) and (max-width: 1199px){
+    .container {
+        max-width: 970px !important;
     }
 }
 
-/* Media query for big screens */
+/* Media query common for tablets and big screens */
 
-@media only screen and (min-width: 1200px){
+@media only screen and (min-width: 1000px){
     .post {
         flex: 0 0 31.33% !important;
     }
@@ -458,7 +450,7 @@ form {
     }
 }
 
-@media only screen and (max-width: 1000px){
+/* @media only screen and (max-width: 1000px){
     .failsafe {
         display: none;
     }
@@ -467,4 +459,4 @@ form {
         display: block;
     }
 
-}
+} */
