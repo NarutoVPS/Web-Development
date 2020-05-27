@@ -210,7 +210,7 @@ div.section1 div.wrapper{
     align-items: flex-start;
     justify-content: space-evenly;
     margin: 8vh 0;
-    width: 100%;
+    /* width: 100%; */
     flex-wrap: wrap;
 }
 
@@ -450,13 +450,27 @@ form {
     }
 }
 
-/* @media only screen and (max-width: 1000px){
-    .failsafe {
+@media only screen and (max-width: 768px){
+    .post {
+        flex: 0 0 100%;
+        max-width: 360px;
+    }
+    
+    .post2 {
+        flex: 0 0 100%;
+        max-width: 555px;
+    }
+
+    .sec3Post {
+        flex: 0 0 100%;
+        max-width: 260px;
+    }
+
+    .sec3PostBig {
+        flex: 0 0 100%;   
+    }
+
+    nav {
         display: none;
     }
-
-    .smallScreen{
-        display: block;
-    }
-
-} */
+}
