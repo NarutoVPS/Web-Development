@@ -407,19 +407,30 @@ form {
     text-shadow: 2px 2px #000;
 }
 
-/* SmallScreen Error */
+/* Media query for small devices */
 
-.smallScreen{
-    text-align: center;
-    display: none;
-}
+@media only screen and (max-width: 768px){
+    .post {
+        flex: 0 0 100%;
+        max-width: 360px;
+    }
 
-/* Media query for mobile devices */
+    .post2 {
+        flex: 0 0 100%;
+        max-width: 555px;
+    }
 
-@media only screen and (max-width: 580px){
-    [class*="post"] {
-        margin-bottom: 10%;
-        flex: 0 0 90%
+    .sec3Post {
+        flex: 0 0 100%;
+        max-width: 260px;
+    }
+
+    .sec3PostBig {
+        flex: 0 0 100%;   
+    }
+
+    nav {
+        display: none;
     }
 }
 
@@ -450,27 +461,5 @@ form {
     }
 }
 
-@media only screen and (max-width: 768px){
-    .post {
-        flex: 0 0 100%;
-        max-width: 360px;
-    }
-    
-    .post2 {
-        flex: 0 0 100%;
-        max-width: 555px;
-    }
 
-    .sec3Post {
-        flex: 0 0 100%;
-        max-width: 260px;
-    }
 
-    .sec3PostBig {
-        flex: 0 0 100%;   
-    }
-
-    nav {
-        display: none;
-    }
-}
