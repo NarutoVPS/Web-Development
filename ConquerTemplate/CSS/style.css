@@ -36,6 +36,11 @@ p, h2 {
     margin-left: auto;
     max-width: 1170px;
   }
+  @media (max-width: 767px){
+      .container {
+          width: 95%;
+      }
+  }
   @media (min-width: 768px) {
     .container {
       width: 750px;
@@ -267,6 +272,10 @@ div.section1 div.wrapper{
     top: 50%;
     left: 50%;
     transform: translate(-50%, -50%);
+}
+
+.section2 p {
+    font-size: 18px;
 }
 
 /* Section 3 */
