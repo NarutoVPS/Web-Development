@@ -427,7 +427,7 @@ form {
 
 @media only screen and (min-width: 999px) and (max-width: 1199px){
     .container {
-        max-width: 970px !important;
+        max-width: 970px;
     }
 }
 
@@ -435,18 +435,18 @@ form {
 
 @media only screen and (min-width: 1000px){
     .post {
-        flex: 0 0 31.33% !important;
+        flex: 0 0 31.33%;
     }
     .post2 {
-        flex: 0 0 48% !important;
+        flex: 0 0 48%;
     }
 
     .sec3Post {
-        flex: 0 0 23% !important;
+        flex: 0 0 23%;
     }
 
     .sec3PostBig {
-        flex: 0 0 98% !important;   
+        flex: 0 0 98%;   
     }
 }
 
