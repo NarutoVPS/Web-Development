@@ -340,17 +340,16 @@ div.section3.wrapper {
     position: relative;
 }
 
-.inputField {
-    display: flex;
+.form .wrapper {
     justify-content: space-between;
 }
 
 .form {
-    max-width: 720px;
+    max-width: 720px !important;
 }
 
 form {
-    flex: 0 0 25%;
+    flex: 0 0 46%;
 }
 
 .form input {
@@ -367,7 +366,8 @@ form {
 }
 
 .form textarea {
-    flex: 0 0 40%;
+    height: 500px;
+    flex: 0 0 46%;
 }
 
 .form input:focus {
@@ -387,7 +387,7 @@ form {
     background: rgba(242, 242, 242, 0.4);
     color: #000;
     padding: 6px 12px;
-    height: auto;
+    height: 117px;
     border: none;
 }
 
@@ -451,11 +451,20 @@ form {
     nav {
         display: none;
     }
+
+    .form .wrapper {
+        flex-direction: column;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 999px) {
     .container {
         max-width: 750px;
+    }
+
+    .sec3Post {
+        flex: 0 0 48%;
+        max-width: 260px;
     }
 }
 
