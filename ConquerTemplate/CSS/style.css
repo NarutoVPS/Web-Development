@@ -274,6 +274,7 @@ div.section1 div.wrapper{
 div.section3.wrapper {
     flex-wrap: wrap;
     margin-top: 8vh;
+    justify-content: space-evenly;
 }
 
 .sec3Image1-1 {
@@ -407,6 +408,24 @@ form {
     text-shadow: 2px 2px #000;
 }
 
+/* Default flex sizes */
+
+.post {
+    flex: 0 0 31.33%;
+}
+
+.post2 {
+    flex: 0 0 48%;
+}
+
+.sec3Post {
+    flex: 0 0 23%;
+}
+
+.sec3PostBig {
+    flex: 0 0 98%;   
+}
+
 /* Media query for small devices */
 
 @media only screen and (max-width: 768px){
@@ -434,32 +453,20 @@ form {
     }
 }
 
+@media only screen and (min-width: 769px) and (max-width: 999px) {
+    .container {
+        max-width: 750px;
+    }
+}
+
 /* Media query for tablets */
 
-@media only screen and (min-width: 999px) and (max-width: 1199px){
+@media only screen and (min-width: 1000px) and (max-width: 1199px){
     .container {
         max-width: 970px;
     }
 }
 
-/* Media query common for tablets and big screens */
-
-@media only screen and (min-width: 1000px){
-    .post {
-        flex: 0 0 31.33%;
-    }
-    .post2 {
-        flex: 0 0 48%;
-    }
-
-    .sec3Post {
-        flex: 0 0 23%;
-    }
-
-    .sec3PostBig {
-        flex: 0 0 98%;   
-    }
-}
 
 
 
