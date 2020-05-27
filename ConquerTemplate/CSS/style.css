@@ -34,6 +34,7 @@ p, h2 {
     padding-left: 15px;
     margin-right: auto;
     margin-left: auto;
+    max-width: 1170px;
   }
   @media (min-width: 768px) {
     .container {
@@ -47,7 +48,7 @@ p, h2 {
   }
   @media (min-width: 1200px) {
     .container {
-      width: 60%;
+      width: 80%;
     }
   }
 
@@ -317,7 +318,7 @@ div.section3.wrapper {
 .post, .post2, .sec3Post, .sec3PostBig {
     background-color: #f2f2f2;
     margin-right: 2%;
-    margin-bottom: 5%;
+    margin-bottom: 3%;
 }
 
 /* Disclaimer */
