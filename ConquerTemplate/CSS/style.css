@@ -449,6 +449,7 @@ form {
     .post {
         flex: 0 0 100%;
         max-width: 360px;
+        margin-bottom: 30px;
     }
 
     .post2 {
@@ -456,9 +457,19 @@ form {
         max-width: 555px;
     }
 
+    #post4 {
+        margin-top: 60px;
+        margin-bottom: 30px;
+    }
+
+    #post5 {
+        margin-bottom: 35px;
+    }
+
     .sec3Post {
         flex: 0 0 100%;
         max-width: 260px;
+        margin-bottom: 30px;
     }
 
     .sec3PostBig {
