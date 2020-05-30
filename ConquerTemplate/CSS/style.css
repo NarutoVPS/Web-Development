@@ -313,7 +313,7 @@ div.section3.wrapper {
 }
 
 .sec3Post {
-    height: 520px;
+    height: 480px;
 }
 
 /* For all posts */
@@ -489,7 +489,6 @@ form {
         flex: 0 0 100%;
         max-width: 260px;
         margin-bottom: 30px;
-        max-height: 480px;
     }
 
     .sec3PostBig {
@@ -533,7 +532,6 @@ form {
     .sec3Post {
         flex: 0 0 48%;
         max-width: 260px;
-        max-height: 480px;
     }
 
     nav {
@@ -552,6 +550,9 @@ form {
         max-width: 970px;
     }
 
+    .sec3Post {
+        height: 520px;
+    }
 }
 
 /* To allign textArea correctly */
