@@ -535,6 +535,10 @@ form {
         width: 100%;
         max-width: 696px;
     }
+
+    #submit-btn {
+        margin-left: 0;
+    }
 }
 
 @media only screen and (min-width: 769px) and (max-width: 999px) {
